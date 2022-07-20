@@ -1,4 +1,4 @@
-package com.sunq.springlearn.autowire.model;
+package com.sunq.springlearn.lifecycle.model;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Data
 @Component
-public class A {
+public class B {
     @Autowired
-    private B b;
+    private A a;
 }

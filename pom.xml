@@ -12,6 +12,7 @@
     <modules>
         <module>cycle-dependency</module>
         <module>autowire</module>
+        <module>life-cycle</module>
     </modules>
 
     <groupId>com.sunq</groupId>

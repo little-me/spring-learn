@@ -4,4 +4,4 @@ spring:
 
 logging:
   level:
-    org.springframework.beans: trace
+    org.springframework.beans: info

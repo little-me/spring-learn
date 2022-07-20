@@ -9,10 +9,10 @@
     </parent>
 
     <groupId>com.sunq</groupId>
-    <artifactId>autowire</artifactId>
+    <artifactId>life-cycle</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>autowire</name>
-    <description>autowire</description>
+    <name>life-cycle</name>
+    <description>life-cycle</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
