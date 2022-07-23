@@ -19,7 +19,10 @@ public class PrintBeanFactoryPostProcessor implements BeanFactoryPostProcessor {
     @Override
     public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException {
         AtomicInteger n = new AtomicInteger();
-        beanFactory.getBeanNamesIterator().forEachRemaining(e -> {log.info(e); n.getAndIncrement();});
+        beanFactory.getBeanNamesIterator().forEachRemaining(e -> {
+//            log.info(e);
+            n.getAndIncrement();
+        });
         log.info("共计{}个bean定义数量", n.get());
     }
 }
